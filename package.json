@@ -1,0 +1,13 @@
+{
+  "name": "jost",
+  "version": "0.0.1",
+  "description": "Just Jost (not Jest)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "https://github.com/wincent/jost",
+  "author": "Greg Hurrell <greg@hurrell.net>",
+  "license": "MIT",
+  "private": false
+}
