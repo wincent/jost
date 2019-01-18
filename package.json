@@ -9,8 +9,10 @@
   "repository": "https://github.com/wincent/jost",
   "scripts": {
     "build": "babel src -d lib",
+    "checkFormat": "prettier --list-different src/**/*.js *.js",
     "flow": "flow",
-    "prepublishOnly": "flow"
+    "format": "prettier --write src/**/*.js *.js",
+    "prepublishOnly": "flow && yarn checkFormat"
   },
   "author": "Greg Hurrell <greg@hurrell.net>",
   "license": "MIT",
@@ -19,6 +21,7 @@
     "@babel/cli": "7.2.3",
     "@babel/core": "7.2.2",
     "@babel/preset-env": "7.2.3",
-    "flow-bin": "0.91.0"
+    "flow-bin": "0.91.0",
+    "prettier": "1.15.3"
   }
 }
