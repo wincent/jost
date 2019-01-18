@@ -13,7 +13,7 @@
     "flow": "flow",
     "format": "prettier --write src/**/*.js *.js",
     "prepublishOnly": "yarn test && yarn checkFormat && flow",
-    "test": "./test.js"
+    "test": "./jost.test.js"
   },
   "author": "Greg Hurrell <greg@hurrell.net>",
   "license": "MIT",
