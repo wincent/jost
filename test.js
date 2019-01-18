@@ -7,7 +7,7 @@ const {
   describe,
   expect,
   it,
-} = require('.');
+} = require('./src');
 
 describe('Jost', () => {
   it('expects', () => {
