@@ -12,7 +12,8 @@
     "checkFormat": "prettier --list-different src/**/*.js *.js",
     "flow": "flow",
     "format": "prettier --write src/**/*.js *.js",
-    "prepublishOnly": "flow && yarn checkFormat"
+    "prepublishOnly": "yarn test && yarn checkFormat && flow",
+    "test": "./test.js"
   },
   "author": "Greg Hurrell <greg@hurrell.net>",
   "license": "MIT",
